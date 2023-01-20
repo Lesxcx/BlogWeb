@@ -16,9 +16,8 @@ public class StandardResponse {
         this.message = message;
     }
 
-    public StandardResponse(StatusResponce status, String message, JsonElement data) {
+    public StandardResponse(StatusResponce status, JsonElement data) {
         this.status = status;
-        this.message = message;
         this.data = data;
     }
 

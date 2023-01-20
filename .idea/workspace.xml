@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe3ef6b1-0a1f-46d1-aa40-9f32a32b1b48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/BlogPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/BlogPostException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/BlogPostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/BlogPostServiceMapImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/StandardResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/StatusResponce.java" afterDir="false" />
+    <list default="true" id="fe3ef6b1-0a1f-46d1-aa40-9f32a32b1b48" name="Changes" comment="Creation of classes, interface and enum. Creating the first enpoints in Spark Java.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/StandardResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/StandardResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +71,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674212233245</updated>
-      <workItem from="1674212234509" duration="10199000" />
+      <workItem from="1674212234509" duration="12193000" />
     </task>
+    <task id="LOCAL-00001" summary="Creation of classes, interface and enum. Creating the first enpoints in Spark Java.">
+      <created>1674242033063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674242033063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creation of classes, interface and enum. Creating the first enpoints in Spark Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creation of classes, interface and enum. Creating the first enpoints in Spark Java." />
   </component>
 </project>
