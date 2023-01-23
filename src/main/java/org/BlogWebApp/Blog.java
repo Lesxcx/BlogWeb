@@ -62,15 +62,3 @@ public class Blog {
         });
         }
     }
-
-//    public void menu() {
-//        System.out.println("What you wanna do?\n" +
-//                "1: Get list of all posts.\n" +
-//                "2: Get post with given id.\n" +
-//                "3: Add new post.\n" +
-//                "4: Check whether a post exist with given id.\n" +
-//                "5: Delete a particular post.\n" +
-//                "6: Delete all posts.\n" +
-//                "7: Exit blog.");
-//    }
-//}

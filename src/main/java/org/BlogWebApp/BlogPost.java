@@ -4,6 +4,9 @@ public class BlogPost {
     private String id;
     private String post;
 
+    public BlogPost() {
+    }
+
     public BlogPost(String id, String post) {
         this.id = id;
         this.post = post;

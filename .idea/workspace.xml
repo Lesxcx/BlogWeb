@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe3ef6b1-0a1f-46d1-aa40-9f32a32b1b48" name="Changes" comment="Creation of classes, interface and enum. Creating the first enpoints in Spark Java.">
+    <list default="true" id="fe3ef6b1-0a1f-46d1-aa40-9f32a32b1b48" name="Changes" comment="Creating the remaining enpoints in Spark Java.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/BlogWebApp/BlogPostServiceMapImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/BlogWebApp/BlogPostTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/BlogPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/BlogPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/StandardResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/BlogWebApp/StandardResponse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,7 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -40,12 +45,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.BlogWebApp.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.BlogWebApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BlogPostServiceMapImplTest.postExistTest">
+    <configuration name="BlogPostServiceMapImplTest.deletePostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BlogWebApp" />
       <extension name="coverage">
         <pattern>
@@ -53,13 +67,85 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.BlogWebApp" />
+      <option name="MAIN_CLASS_NAME" value="org.BlogWebApp.BlogPostServiceMapImplTest" />
+      <option name="METHOD_NAME" value="deletePostTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPostServiceMapImplTest.deletePosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlogWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.BlogWebApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.BlogWebApp" />
+      <option name="MAIN_CLASS_NAME" value="org.BlogWebApp.BlogPostServiceMapImplTest" />
+      <option name="METHOD_NAME" value="deletePosts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPostServiceMapImplTest.editPostTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlogWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.BlogWebApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.BlogWebApp" />
+      <option name="MAIN_CLASS_NAME" value="org.BlogWebApp.BlogPostServiceMapImplTest" />
+      <option name="METHOD_NAME" value="editPostTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPostServiceMapImplTest.getPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlogWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.BlogWebApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.BlogWebApp" />
+      <option name="MAIN_CLASS_NAME" value="org.BlogWebApp.BlogPostServiceMapImplTest" />
+      <option name="METHOD_NAME" value="getPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogPostServiceMapImplTest.postExistTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BlogWebApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.BlogWebApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.BlogWebApp" />
+      <option name="MAIN_CLASS_NAME" value="org.BlogWebApp.BlogPostServiceMapImplTest" />
+      <option name="METHOD_NAME" value="postExistTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.BlogPostServiceMapImplTest.postExistTest" />
+        <item itemvalue="JUnit.BlogPostServiceMapImplTest.deletePostTest" />
+        <item itemvalue="JUnit.BlogPostServiceMapImplTest.deletePosts" />
+        <item itemvalue="JUnit.BlogPostServiceMapImplTest.editPostTest" />
+        <item itemvalue="JUnit.BlogPostServiceMapImplTest.getPost" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674212233245</updated>
-      <workItem from="1674212234509" duration="12193000" />
+      <workItem from="1674212234509" duration="20822000" />
     </task>
     <task id="LOCAL-00001" summary="Creation of classes, interface and enum. Creating the first enpoints in Spark Java.">
       <created>1674242033063</created>
@@ -80,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674242033063</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creating the remaining enpoints in Spark Java.">
+      <created>1674244074075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674244074075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creation of classes, interface and enum. Creating the first enpoints in Spark Java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creation of classes, interface and enum. Creating the first enpoints in Spark Java." />
+    <MESSAGE value="Creating the remaining enpoints in Spark Java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating the remaining enpoints in Spark Java." />
   </component>
 </project>
